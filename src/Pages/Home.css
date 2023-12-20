@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* header Iamge */
+span.h-title {
+  color: orange;
+}
+.header {
+  background-image: url(../assets/header.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+}
+/*Delivery and Feedback*/
+.star {
+  color: orange;
+}
+/*Diet*/
+.diet {
+  background-image: linear-gradient(to bottom right, rgb(237, 144, 144), white);
+}
+/*Testimonials*/
+.block {
+  background: #fff;
+  color: #333;
+  padding: 60px 15px 15px;
+  margin: 50px 50px;
+  box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 30px -5px rgba(0, 0, 0, 0.15);
+}
+
+.user {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.user-image {
+  position: relative;
+  margin: 0 15px 30px 15px;
+}
+.user-image img {
+  height: 150px;
+  width: 150px;
+  border: 7px solid rgb(231, 84, 84);
+  border-radius: 170px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.user-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  position: relative;
+}
+.user-name::after {
+  content: "";
+  height: 4px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 25px);
+  background: rgb(231, 84, 84);
+}
+p span {
+  font-size: 40px;
+  margin-right: 5px;
+  color: rgb(231, 84, 84);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(231, 84, 84) !important;
+}
+/*Call*/
+.eicon {
+  color: rgb(231, 84, 84);
+}
+.ehead {
+  color: rgb(231, 84, 84);
+  margin-left: 10px;
+  font-weight: bold;
+}
+/*Footer*/
+.footer {
+  background-image: linear-gradient(
+    bottom to right,
+    rgb(237, 144, 144),
+    white
+  ) !important;
+}

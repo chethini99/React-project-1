@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.product-wrapper .card,
+.gallery-wrapper .card {
+  cursor: pointer;
+  transition: ease 0.5s;
+  border: none !important;
+}
+.product-imgs:hover .iconsi,
+.gallery-imgs:hover .gallery-icons {
+  display: block;
+}
+.iconsi {
+  background: rgba(231, 84, 84, 0.5);
+  display: none;
+  transition: all 0.5s;
+}
+.fa-star,
+.fa-star-half-stroke,
+.menu {
+  color: rgb(231, 84, 84);
+}
+.para {
+  font-weight: bold;
+}

@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand {
+  object-fit: cover;
+}
+.nav-item .nav-link:hover {
+  background-color: rgb(231, 84, 84);
+  padding: 10px auto;
+  transition: 0.5s ease;
+  color: white;
+}
+.search {
+  outline: none;
+  border: 1px solid rgb(231, 84, 84);
+  border-radius: 5px;
+  width: 100%;
+}
